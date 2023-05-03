@@ -3,4 +3,5 @@ inputs:
   flags:
     description: Additional tfsec flags
 run:
-  sh: plugin.sh
+  bash:
+    path: plugin
