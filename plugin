@@ -5,3 +5,4 @@ export TFSEC_VERSION=v1.28.1
 curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
 echo 'Script installed'
 output=$(tfsec --no-color --soft-fail --format json ${PLUGIN_FLAGS})
+echo $output
